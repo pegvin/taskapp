@@ -1,4 +1,4 @@
-// Contains all the javascript for html
+// This JavaScript File Handles Window Buttons!
 
 const { ipcRenderer } = require('electron')
 const ipc = ipcRenderer

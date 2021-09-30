@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<title>TaskApp</title>
 	<link rel="stylesheet" href="index.css">
-	<script defer src="html.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script defer src="windowButton.js"></script>
+	<script defer src="taskHandler.js"></script>
 </head>
 <body>
 
@@ -14,10 +16,36 @@
 		<span id="btn-zoom" class="dot btn-zoom"></span>
 		<span id="btn-exit" class="dot btn-exit"></span>
 	</div>
-		
-	<div class="content">
-		<h3>Browser Window</h3>
-		<p>How to create a browser window look with CSS.</p>
+
+	<div class="app-body">
+		<div style="display: block; text-align: center;">
+			<input type="text" id="taskInput" autofocus>
+			<button type="button" id="taskSubmit"><i class="fas fa-plus"></i></button>
+		</div>
+		<ol id="taskOL" type="1" class="task">
+			<!-- <h1 style="text-align: center;">Hurray No task todo!</h1> -->
+			<!-- <li>
+				<input type="checkbox" id="checkboxOne">
+				<label for="checkboxOne">Volleyball</label>
+			</li> -->
+		</ol>
+		<footer>
+			<div style="margin-bottom: 6px; color: #9e9e9e;" id="task-percent">
+				0% of all tasks complete.
+			</div>
+			<span id="task-done">
+				<span style='color: #00b81f'>0</span> done
+			</span>
+			&#8729;
+			<span id="task-pending">
+				<span style='color: #831fe0'>0</span> pending
+			</span>
+			&#8729;
+			<span id="task-total">
+				<span style='color: #0081bd'>0</span> total
+			</span>
+		</footer>
+
 	</div>
 </div>
 
