@@ -25,3 +25,7 @@ I was inspired by this CLI Tool named [taskbook](https://github.com/klaussinani/
 And Made my own GUI using [Electron JS](https://www.electronjs.org/) Framework (because i was learning electron js)
 
 <img src="preview.png" width="600"/>
+
+---
+
+# THANKS
