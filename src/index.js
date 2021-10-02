@@ -27,7 +27,8 @@ const createWindow = () => {
 	mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
 	ipc.on("app:exit", () => {
-		mainWindow.close();
+		// mainWindow.webContents.send("app:save")
+		mainWindow.close()
 		console.info("#btn-exit Pressed")
 	})
 
