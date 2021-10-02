@@ -15,6 +15,8 @@ Run The Application: ```npm start```
 
 Compile To Executable: ```npm run make```
 
+[Download](https://github.com/heyDevlopr/taskapp/releases/tag/taskapp-betav2-win32) Compiled Executable for Windows x64
+
 ---
 
 # Inspiration
