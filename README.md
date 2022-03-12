@@ -1,32 +1,38 @@
 # TaskApp
-A Simple application for noting your Tasks, or Notes
+A Simple application for noting your Tasks or Notes, Built using [NeutralinoJs](https://github.com/neutralinojs/neutralinojs)
+
+---
+## Download
+Get The Latest Binaries From [GitHub Releases](https://github.com/DEVLOPRR/taskapp/releases)
+
+---
+## Preview
+![Preview Image Taken On Linux](./preview.png)
 
 ---
 
-Built With
-- ElectronJS - 15.0.0
-- NodeJS - v16.10.0
-- Electron Forge - 6.0.0
-- NPM - 7.24.0
+## Building From Source
 
-Install Required Modules: ```npm install```
+Get The Repository Using `git`:
 
-Run The Application: ```npm start```
+```bash
+git clone https://github.com/DEVLOPRR/taskapp
+```
 
-Compile To Executable: ```npm run make```
+Change Directory To Cloned Folder And Install Dependencies:
 
-[Download](https://github.com/heyDevlopr/taskapp/releases/tag/taskapp-betav2-win32) Compiled Executable for Windows x64
+```bash
+cd taskapp
+npm install
+npm install -g @neutralinojs/neu
+neu update
+```
 
----
+Build:
 
-# Inspiration
-I was inspired by this CLI Tool named [taskbook](https://github.com/klaussinani/taskbook)
-
-<img src="inspiration.png" width="500"/>
-
-And Made my own GUI using [Electron JS](https://www.electronjs.org/) Framework (because i was learning electron js)
-
-<img src="preview.png" width="600"/>
+```bash
+npm run build
+```
 
 ---
 
