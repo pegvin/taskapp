@@ -3,7 +3,7 @@ A Simple application for noting your Tasks or Notes, Built using [NeutralinoJs](
 
 ---
 ## Download
-Get The Latest Binaries From [GitHub Releases](https://github.com/DEVLOPRR/taskapp/releases)
+Get The Latest Binaries From [GitHub Releases](https://github.com/DEVLOPRR/taskapp/releases/latest)
 
 ---
 ## Preview
