@@ -1,0 +1,50 @@
+{
+	"applicationId": "js.neutralino.taskapp",
+	"version": "1.0.0",
+	"defaultMode": "window",
+	"port": 0,
+	"documentRoot": "/www/",
+	"url": "/",
+	"enableServer": true,
+	"enableNativeAPI": true,
+	"tokenSecurity": "one-time",
+	"logging": {
+		"enabled": false,
+		"writeToLogFile": false
+	},
+	"nativeAllowList": [
+		"app.exit",
+		"os.showMessageBox",
+		"window.*",
+		"storage.setData",
+		"storage.getData",
+		"events.on",
+		"debug.log"
+	],
+	"modes": {
+		"window": {
+			"title": "TaskApp",
+			"width": 800,
+			"height": 500,
+			"minWidth": 400,
+			"minHeight": 200,
+			"fullScreen": false,
+			"alwaysOnTop": false,
+			"icon": "/www/icons/appIcon.png",
+			"enableInspector": false,
+			"borderless": true,
+			"maximize": false,
+			"hidden": false,
+			"resizable": true,
+			"exitProcessOnClose": true
+		}
+	},
+	"cli": {
+		"binaryName": "taskapp",
+		"resourcesPath": "/www/",
+		"extensionsPath": "/extensions/",
+		"clientLibrary": "/www/neutralino.js",
+		"binaryVersion": "4.4.0",
+		"clientVersion": "3.3.0"
+	}
+}
